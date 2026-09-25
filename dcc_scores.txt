@@ -1,0 +1,56 @@
+========================================================================
+WINNING CLASS: Discarded-Channel Class
+DISCARD_GAP 11 | PENALIZED 3 | KILLED 0 | CONTROL 7
+primary NPRC_1973_FIRE score=75.5
+========================================================================
+
+  score  status        intent       dup         name
+------------------------------------------------------------------------
+  75.50  DISCARD_GAP   accidental   partial     1973 National Personnel Records Center fire — 16-18 million military personnel files
+  74.75  DISCARD_GAP   accidental   partial     2008 Universal backlot fire destroyed ~175,000 master recording tapes
+  74.25  DISCARD_GAP   intentional  partial     Apollo 11 raw slow-scan telemetry tapes degaussed and reused
+  72.00  DISCARD_GAP   mixed        none        1890 US Census schedules destroyed in 1921 Commerce Department fire
+  69.50  DISCARD_GAP   mixed        none        70% of American silent feature films lost (Library of Congress 2013)
+  67.50  DISCARD_GAP   mixed        none        Pioneer 10/11 and Helios instrumentation reels abandoned, later found mold-damaged in engineer's basement
+  65.75  DISCARD_GAP   intentional  partial     DuMont Television Network archive destroyed — ~20,000 episodes to ~350 survivors
+  63.25  DISCARD_GAP   accidental   none        1937 Fox vault fire, Little Ferry NJ — most Fox silent films pre-1932 destroyed
+  61.00  DISCARD_GAP   accidental   none        1965 MGM Vault 7 fire, Culver City — only known copies of hundreds of films destroyed
+  60.00  DISCARD_GAP   intentional  partial     NBC wiped Johnny Carson Tonight Show master tapes, 1962-1972
+  59.25  DISCARD_GAP   intentional  partial     BBC wiped Doctor Who episodes 1967-1978
+  30.71  PENALIZED     accidental   partial     MySpace server migration made 2003-2015 user uploads unavailable
+  30.71  PENALIZED     intentional  substantial  NLM retired TOXNET December 16, 2019; Toxmap interface discontinued
+  28.24  PENALIZED     intentional  partial     GeoCities shut down October 2009; ~38 million pages deleted
+   0.00  CONTROL       ?            ?           Apollo heat-flow experiment tapes lost then recovered 2010 (CONTROL)
+   0.00  CONTROL       ?            ?           BBC Domesday Project unreadable by 2002; rescued via CAMiLEON emulation (CONTROL)
+   0.00  CONTROL       ?            ?           First website deleted at CERN; restored from surviving 1992 copy (CONTROL)
+   0.00  CONTROL       ?            ?           Lunar Orbiter tapes nearly scrapped; recovered by LOIRP (CONTROL)
+   0.00  CONTROL       ?            ?           Nimbus satellite tapes went 'dark' in warehouses; recovered by NSIDC/NASA (CONTROL)
+   0.00  CONTROL       ?            ?           Two-thirds of 1972-1999 Landsat data untapped at ground stations; repatriated via LGAC (CONTROL)
+   0.00  CONTROL       ?            ?           Vines et al. 2014: research data availability declines 17%/year (META)
+
+ITERATE 1 — surviving-copy challenge
+  NPRC_1973_FIRE: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  UNIVERSAL_2008_FIRE: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  APOLLO11_SSTV: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  CENSUS_1890_FIRE: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=none)
+  SILENT_FILMS_LOC: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=none)
+  PIONEER_HELIOS_BASEMENT: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=none)
+  DUMONT_NETWORK: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  FOX_1937_FIRE: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=none)
+  MGM_1965_FIRE: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=none)
+  CARSON_TONIGHT_SHOW: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  BBC_DOCTOR_WHO: DISCARD_GAP -> SURVIVES_CHALLENGE (dup=partial)
+  MYSPACE_MIGRATION: PENALIZED -> SURVIVES_CHALLENGE (dup=partial)
+  TOXNET_2019: PENALIZED -> DEMOTED_BY_CHALLENGE (dup=substantial)
+  GEOCITIES_2009: PENALIZED -> SURVIVES_CHALLENGE (dup=partial)
+
+ITERATE 2 — known-content challenge
+  [NOT_DCC] Retained catalog fully enumerates the channel. Ordinary loss.
+  [DCC_SHAPE] No surviving record enumerates what was lost. The unknown content is inference.
+  [NOT_DCC] Fails G5 (irrecoverability), not G4. Controls exist in the instance set.
+
+ITERATE 3 — discard-intent ablation
+  counts {'intentional': 6, 'accidental': 5, 'mixed': 3, 'unknown': 0} means {'intentional': 53.03, 'accidental': 61.04, 'mixed': 69.67, 'unknown': 0.0}
+  Both intentional (wiping, dumping, migration) and accidental (fire, decay) discards sit in the eligible set with comparable scores. The class groups the LOSS SHAPE, not the motive — a limitation for policy use (intent matters for prevention) but the point of the discriminator: what is uninterrogable is uninterrogable regardless of why the channel died.
+
+Research-stage classification. Not a physical discovery, not peer review, not a patent. Scores are a classification heuristic, not measurements of nature. Every unknown-content conclusion is labeled INFERENCE unless the source directly establishes it. No filing, publication, or repository change has occurred.

@@ -1,0 +1,711 @@
+{
+  "session_id": "2026-09-25-dcc-discarded-channel",
+  "timestamp": "2026-09-25T10:00:00-04:00",
+  "winning_class": "Discarded-Channel Class",
+  "primary": {
+    "id": "NPRC_1973_FIRE",
+    "name": "1973 National Personnel Records Center fire \u2014 16-18 million military personnel files",
+    "realm": "government",
+    "status": "DISCARD_GAP",
+    "score": 75.5,
+    "failed_gates": [],
+    "reasons": [],
+    "source_url": "https://www.archives.gov/news/articles/2023-nprc-fire-anniversary",
+    "source_date": "2023-07",
+    "known_fact": "An estimated 16-18 million OMPFs of Army/Army Air Force/Air Force personnel discharged 1912-1964 damaged or destroyed; ~6.5 million survived in varying condition. 80% loss for Army 1912-1960; 75% for Air Force 1947-1964. NPRC reconstructs service from alternate sources (~5.5 million reconstructions).",
+    "inference_statement": "INFERENCE: the destroyed files held service details not present in the alternate sources used for reconstruction; the reconstruction records themselves show the primary channel cannot be enumerated. Source establishes destruction scale and the reconstruction practice, not any specific destroyed file's contents.",
+    "unknown_content_claim": "inference",
+    "discard_mechanism": "fire at 9700 Page Avenue, St. Louis, July 12 1973; burned 22+ hours out of control; water + mold damaged survivors; source never determined",
+    "intent": "accidental",
+    "duplicate_survival": "partial",
+    "notes": "Primary source (NARA). 'Unparalleled disaster' per Archivist David S. Ferriero. Reconstruction from alternate sources proves G8: more records elsewhere cannot reconstruct the destroyed channel itself.",
+    "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true
+    },
+    "archive_overlap": ""
+  },
+  "status_counts": {
+    "DISCARD_GAP": 11,
+    "PENALIZED": 3,
+    "CONTROL": 7
+  },
+  "ranked": [
+    {
+      "id": "NPRC_1973_FIRE",
+      "name": "1973 National Personnel Records Center fire \u2014 16-18 million military personnel files",
+      "realm": "government",
+      "status": "DISCARD_GAP",
+      "score": 75.5,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://www.archives.gov/news/articles/2023-nprc-fire-anniversary",
+      "source_date": "2023-07",
+      "known_fact": "An estimated 16-18 million OMPFs of Army/Army Air Force/Air Force personnel discharged 1912-1964 damaged or destroyed; ~6.5 million survived in varying condition. 80% loss for Army 1912-1960; 75% for Air Force 1947-1964. NPRC reconstructs service from alternate sources (~5.5 million reconstructions).",
+      "inference_statement": "INFERENCE: the destroyed files held service details not present in the alternate sources used for reconstruction; the reconstruction records themselves show the primary channel cannot be enumerated. Source establishes destruction scale and the reconstruction practice, not any specific destroyed file's contents.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "fire at 9700 Page Avenue, St. Louis, July 12 1973; burned 22+ hours out of control; water + mold damaged survivors; source never determined",
+      "intent": "accidental",
+      "duplicate_survival": "partial",
+      "notes": "Primary source (NARA). 'Unparalleled disaster' per Archivist David S. Ferriero. Reconstruction from alternate sources proves G8: more records elsewhere cannot reconstruct the destroyed channel itself.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "UNIVERSAL_2008_FIRE",
+      "name": "2008 Universal backlot fire destroyed ~175,000 master recording tapes",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 74.75,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://metalinsider.net/news/thousands-of-master-recordings-burned-in-2008-fire-artists-and-universal-respond",
+      "source_date": "2019-06-11",
+      "known_fact": "NYT Magazine investigation (June 2019, Jody Rosen): more than 175,000 master tapes destroyed, estimated ~500,000 song titles. Almost all Buddy Holly masters; most of John Coltrane's Impulse catalog; all Decca masters (Holiday, Armstrong, Ellington, Fitzgerald, Berry); multitracks; sessions never released. UMG had told Billboard in 2008 it 'had no loss.'",
+      "inference_statement": "INFERENCE: unreleased sessions and isolated-instrument multitracks that were never cataloged publicly are gone and can never be enumerated from the surviving commercial catalog. NOT claimed: specific unreleased tracks exist \u2014 only that the vault inventory, per the NYT investigation, included never-released sessions whose contents no surviving record enumerates.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "accidental fire, June 1 2008; archive had been downplayed as a 'video vault' of copies",
+      "intent": "accidental",
+      "duplicate_survival": "partial",
+      "notes": "Cited source is Metal Insider's account of the NYT Magazine investigation (paywalled at NYT). Corroborated by the class-action complaint filing against UMG (digitalmusicnews PDF, 2019). Commercial releases survive; the master-quality channel and unreleased-session remainder do not.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "APOLLO11_SSTV",
+      "name": "Apollo 11 raw slow-scan telemetry tapes degaussed and reused",
+      "realm": "space",
+      "status": "DISCARD_GAP",
+      "score": 74.25,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://www.space.com/6994-nasa-erased-moonwalk-tapes-restores-copies.html",
+      "source_date": "2009-07-16",
+      "known_fact": "A 2009 NASA search concluded ~45 raw slow-scan telemetry tapes were likely degaussed and reused circa 1981-82 to support Landsat and the shuttle program. The live-converted NTSC broadcast survives in many archives; the raw higher-quality SSTV channel does not. NASA emphasized no unseen moonwalk video was lost.",
+      "inference_statement": "INFERENCE: the raw SSTV signal held higher-resolution signal information than the converted broadcast; that higher-quality information is unrecoverable. NOT claimed: unseen scenes or suppressed footage \u2014 NASA says no unseen moonwalk video was lost, and the record is treated as authoritative on that point.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "degaussed and recertified for reuse by NASA/Goddard in early 1980s tape scarcity",
+      "intent": "intentional",
+      "duplicate_survival": "partial",
+      "notes": "Primary DCC instance. Procedural erasure of a channel that existed, not undersampling. The lost remainder is signal quality / future reprocessing capacity, not unknown scenes.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "CENSUS_1890_FIRE",
+      "name": "1890 US Census schedules destroyed in 1921 Commerce Department fire",
+      "realm": "government",
+      "status": "DISCARD_GAP",
+      "score": 72.0,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://www.archives.gov/research/census/1890",
+      "source_date": "2005-02-07",
+      "known_fact": "Only 6,160 persons listed in surviving population-census fragments (M407, 3 rolls, fragments in 10 states + DC). Veterans schedules, Oklahoma territorial schedules, and Delaware African-American lists partially survived. A 20-year genealogical gap 1880-1900 resulted.",
+      "inference_statement": "INFERENCE: the destroyed schedules held the only enumerations of millions of 1890 households; no other record enumerates what was on the destroyed pages. Source establishes the destruction, not any specific destroyed person's data.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "fire in Commerce Department basement, January 10 1921 (25% burned, 50% water-damaged); Congress authorized disposal 1933; destroyed 1934-35",
+      "intent": "mixed",
+      "duplicate_survival": "none",
+      "notes": "Primary institutional source (NARA). Note the two-stage discard: 1921 fire damage, then deliberate disposal authorized by Congress in 1933.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "SILENT_FILMS_LOC",
+      "name": "70% of American silent feature films lost (Library of Congress 2013)",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 69.5,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://www.loc.gov/item/prn-13-209/endangered-silent-film-heritage/2013-12-04/",
+      "source_date": "2013-12-04",
+      "known_fact": "LoC's first comprehensive survey of 10,919 American silent features: ~70% believed lost; only 14% (1,575 titles) survive in original 35mm; 11% survive only as foreign versions or lower-quality formats. 'An alarming and irretrievable loss to our nation's cultural record' (Librarian of Congress James H. Billington).",
+      "inference_statement": "INFERENCE: the lost 70% contained creative works no surviving catalog enumerates; each lost title is an unenumerated remainder. Source establishes the scale of loss, not any specific film's contents.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "decay, studio fires, deliberate destruction/melting for silver content, neglect",
+      "intent": "mixed",
+      "duplicate_survival": "none",
+      "notes": "Aggregate-instance: DCC claims the class-level shape, not any single title. The LoC study is the primary institutional source.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "PIONEER_HELIOS_BASEMENT",
+      "name": "Pioneer 10/11 and Helios instrumentation reels abandoned, later found mold-damaged in engineer's basement",
+      "realm": "space",
+      "status": "DISCARD_GAP",
+      "score": 67.5,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://oig.nasa.gov/FOIA/O-GO-16-0061-S.pdf",
+      "source_date": "2016",
+      "known_fact": "NASA OIG report: 325 reels picked up Dec 8, 2015; most unmarked; majority appear to be Pioneer 10/11 instrumentation reels; 'poor condition and almost all affected by moderate to severe mould.' The engineer was told he could have them when IBM was getting rid of the items.",
+      "inference_statement": "INFERENCE: most reels are unmarked, so their contents cannot be enumerated from any surviving inventory; whether the mold-damaged telemetry remains readable is unknown. NOT claimed: that the data is already lost \u2014 recovery status is unknown.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "IBM/NASA disposed of the reels circa 1968-1972; an IBM engineer took ~325 reels home; found mold-damaged in a Pittsburgh basement, recovered by NASA OIG December 2015",
+      "intent": "mixed",
+      "duplicate_survival": "none",
+      "notes": "Primary source (NASA OIG FOIA report). Lowest-certainty instance: the channel physically survives in degraded form, so DCC holds only for the unenumerated, possibly-unreadable remainder.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "DUMONT_NETWORK",
+      "name": "DuMont Television Network archive destroyed \u2014 ~20,000 episodes to ~350 survivors",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 65.75,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://blog.archive.org/2024/12/11/vanishing-culture-the-dumont-network-americas-vanishing-television-history/",
+      "source_date": "2024-12-11",
+      "known_fact": "Of 20,000+ episodes, ~350 survive, mostly in personal collections (Jackie Gleason preserved his own Honeymooners sketches). Edie Adams testified to the Library of Congress in 1996 about the alleged 1970s dumping; the bay-dumping account is commonly reported lore \u2014 the source notes 'no one really knows for sure what happened.'",
+      "inference_statement": "INFERENCE: the destroyed archive contained early-television programming whose contents no surviving record enumerates; early programs (Captain Video, Cavalcade of Stars) survive only in fragments. The dumping mechanism is partly unverified lore and is NOT presented as settled fact.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "much destroyed ~1958 to recover silver content; remaining kinescopes reportedly dumped into Upper New York Bay in the 1970s after custody passed to successor companies",
+      "intent": "intentional",
+      "duplicate_survival": "partial",
+      "notes": "Internet Archive blog is credible-secondary; it explicitly flags the bay-dumping as unverified lore. The silver-recovery destruction ~1958 is the firmer mechanism.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "FOX_1937_FIRE",
+      "name": "1937 Fox vault fire, Little Ferry NJ \u2014 most Fox silent films pre-1932 destroyed",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 63.25,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://en.wikipedia.org/wiki/1937_Fox_vault_fire",
+      "source_date": "2026-07",
+      "known_fact": "All archived film in the vaults destroyed; loss of most silent films produced by Fox Film Corporation before 1932, plus negatives from Educational Pictures and other studios. 1 death, 2 injuries.",
+      "inference_statement": "INFERENCE: the destroyed vault contents included titles whose only records were the destroyed elements; the full contents of the vault were never enumerated before the fire.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "spontaneous combustion of decaying nitrate in heat wave, July 9 1937; no sprinklers or ventilation",
+      "intent": "accidental",
+      "duplicate_survival": "none",
+      "notes": "Wikipedia is secondary; the event is corroborated across film-preservation literature. Theda Bara's near-total filmography loss is commonly cited from this fire.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "MGM_1965_FIRE",
+      "name": "1965 MGM Vault 7 fire, Culver City \u2014 only known copies of hundreds of films destroyed",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 61.0,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://en.wikipedia.org/wiki/1965_MGM_vault_fire",
+      "source_date": "2026-09",
+      "known_fact": "The only known copies of hundreds of silent and early-sound films were destroyed, including London After Midnight (1927), The Divine Woman (1928), the last known print of The Rogue Song, and original-release prints of pre-1951 MGM cartoons including the silent Our Gang shorts 1927-1929.",
+      "inference_statement": "INFERENCE: 'only known copies' per the source means no surviving record can enumerate the destroyed reels' full contents; specific destroyed-only titles are known from secondary records, but their complete vault contents were not enumerated before the fire.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "electrical short ignited stored nitrate, August 10 1965; entire vault contents destroyed",
+      "intent": "accidental",
+      "duplicate_survival": "none",
+      "notes": "Secondary source (Wikipedia); event corroborated in lost-film literature (e.g., collider.com lost-films history).",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "CARSON_TONIGHT_SHOW",
+      "name": "NBC wiped Johnny Carson Tonight Show master tapes, 1962-1972",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 60.0,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://en.wikipedia.org/wiki/Lost_television_broadcast",
+      "source_date": "2026-08",
+      "known_fact": "Only 33 episodes originally aired prior to May 1, 1972 are known to survive erasure by NBC, including Carson's debut (audio survives). The archive is virtually complete 1973-1992 after Carson took control of masters.",
+      "inference_statement": "INFERENCE: the erased decade contained interviews and performances not documented in surviving records; the erased contents cannot be enumerated because the masters were the record. NOT claimed: any specific lost moment \u2014 the Dean Martin April 1973 anecdote is unverified YouTube lore and is NOT used as evidence.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "routine tape reuse/erasure per standard industry procedure; Carson discovered in 1972 that NBC held no archive",
+      "intent": "intentional",
+      "duplicate_survival": "partial",
+      "notes": "Some kinescopes survive via Armed Forces Radio and Television Service and guest collections (DVIDS, 1963 reel recovery). Secondary source; the DVIDS military-recovery story corroborates the erasure.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "BBC_DOCTOR_WHO",
+      "name": "BBC wiped Doctor Who episodes 1967-1978",
+      "realm": "culture",
+      "status": "DISCARD_GAP",
+      "score": 59.25,
+      "failed_gates": [],
+      "reasons": [],
+      "source_url": "https://phys.org/news/2011-12-bbc-doctor-episodes.html",
+      "source_date": "2011-12",
+      "known_fact": "Search result reported 95 of 253 early episodes missing; other tallies use 97 or 106 depending on date and counting method. Audio recordings, stills, and telesnaps survive for many episodes; some recovered from overseas broadcasters and private collections.",
+      "inference_statement": "INFERENCE: the missing broadcast-quality masters are the unenumerated remainder \u2014 surviving audio/stills enumerate content, not the visual channel as transmitted. Discrepant counts (95/97/106) are preserved, not resolved.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "systematic junking policy: tape reuse, storage space, materials scarcity, rights constraints",
+      "intent": "intentional",
+      "duplicate_survival": "partial",
+      "notes": "Partial survival (audio, stills, some recovered episodes) weakens G5; the DCC claim is specifically the broadcast-master channel, not the episodes as known works.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": ""
+    },
+    {
+      "id": "MYSPACE_MIGRATION",
+      "name": "MySpace server migration made 2003-2015 user uploads unavailable",
+      "realm": "digital",
+      "status": "PENALIZED",
+      "score": 30.71,
+      "failed_gates": [
+        "G5"
+      ],
+      "reasons": [
+        "Soft archive overlap: PLATFORM \u2014 Platform dual: content partly known to uploaders, partial duplicates; penalized"
+      ],
+      "source_url": "https://www.thefader.com/2019/03/18/myspace-server-migration-loss-music",
+      "source_date": "2019-03-18",
+      "known_fact": "Reports estimate 50+ million songs from ~14 million artists (uploads 2003-2015) became unavailable. MySpace's documented explanation is a server migration. Intentional-deletion speculation is NOT repeated here \u2014 it is unsupported.",
+      "inference_statement": "INFERENCE: demos and early works with no independent copies are no longer publicly recoverable; but whether every item lacked an independent copy is unknown \u2014 many uploaders retained originals.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "server migration; MySpace stated older photos, videos, and audio became unavailable",
+      "intent": "accidental",
+      "duplicate_survival": "partial",
+      "notes": "Soft penalty PLATFORM: much content was known to uploaders and many originals survive privately; the lost remainder is the public-corpus channel.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": "PLATFORM"
+    },
+    {
+      "id": "TOXNET_2019",
+      "name": "NLM retired TOXNET December 16, 2019; Toxmap interface discontinued",
+      "realm": "digital",
+      "status": "PENALIZED",
+      "score": 30.71,
+      "failed_gates": [
+        "G5",
+        "G8",
+        "G8"
+      ],
+      "reasons": [
+        "Recovery materially possible or partial duplicate exists",
+        "More data elsewhere reconstructs the discarded channel",
+        "Soft archive overlap: MIGRATION \u2014 Migration dual: substantial content re-homed; residual is the interface loss; penalized"
+      ],
+      "source_url": "https://www.nlm.nih.gov/pubs/techbull/so19/so19_toxnet_discontinued.html",
+      "source_date": "2019-09-24",
+      "known_fact": "NLM Technical Bulletin: TOXNET retired Dec 16, 2019. Most content migrated to PubChem, PubMed, Bookshelf, or returned to source organizations (e.g., EPA). 'Some databases will be retired.' Toxmap \u2014 the pollution-mapping interface researchers relied on for visualization \u2014 was shuttered without a migration path (Popular Science, 2019).",
+      "inference_statement": "INFERENCE: retired databases and the Toxmap interface's query/visualization functionality constituted a channel (API access patterns, curated interface state) not fully enumerated by the migrated content.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "planned retirement; most databases migrated to PubChem/PubMed/Bookshelf; TOXNET API, mobile site, and LactMed apps retired; some databases retired outright",
+      "intent": "intentional",
+      "duplicate_survival": "substantial",
+      "notes": "Soft penalty MIGRATION: most content demonstrably re-homed (fails G8 partially \u2014 elsewhere reconstructs much). The DCC remainder is the retired databases plus the Toxmap interface channel.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": false,
+        "G6": true,
+        "G7": true,
+        "G8": false
+      },
+      "archive_overlap": "MIGRATION"
+    },
+    {
+      "id": "GEOCITIES_2009",
+      "name": "GeoCities shut down October 2009; ~38 million pages deleted",
+      "realm": "digital",
+      "status": "PENALIZED",
+      "score": 28.24,
+      "failed_gates": [
+        "G5"
+      ],
+      "reasons": [
+        "Soft archive overlap: PLATFORM \u2014 Platform dual: content partly known to uploaders, partial duplicates; penalized"
+      ],
+      "source_url": "https://www.pcworld.com/article/469891/the_archive_team_rescues_user_content_from_doomed_sites.html",
+      "source_date": "2011",
+      "known_fact": "The Internet Archive attempted to save as many of ~38 million pages as possible; the independent Archive Team rescued about a terabyte in a six-month crawl. Yahoo refused to release directory lists; crawls were incomplete and different rescue projects captured different fractions.",
+      "inference_statement": "INFERENCE: uncrawled pages \u2014 those never visited by any rescue crawler \u2014 are gone without enumeration, since Yahoo released no directory. The crawled fraction is not the channel.",
+      "unknown_content_claim": "inference",
+      "discard_mechanism": "Yahoo shut down GeoCities US on October 26, 2009; data not personally archived by owners declared irrecoverable",
+      "intent": "intentional",
+      "duplicate_survival": "partial",
+      "notes": "Soft penalty PLATFORM: volunteer rescue captured a substantial-but-incomplete fraction; the uncrawled remainder is the DCC remainder.",
+      "gates": {
+        "G1": true,
+        "G2": true,
+        "G3": true,
+        "G4": true,
+        "G5": true,
+        "G6": true,
+        "G7": true,
+        "G8": true
+      },
+      "archive_overlap": "PLATFORM"
+    },
+    {
+      "id": "APOLLO_HEAT_FLOW",
+      "name": "Apollo heat-flow experiment tapes lost then recovered 2010 (CONTROL)",
+      "realm": "space",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "discard averted before loss \u2014 near-miss control"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "DOMESDAY_1986",
+      "name": "BBC Domesday Project unreadable by 2002; rescued via CAMiLEON emulation (CONTROL)",
+      "realm": "digital",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "discard averted before loss \u2014 near-miss control"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "CERN_FIRST_WEBSITE",
+      "name": "First website deleted at CERN; restored from surviving 1992 copy (CONTROL)",
+      "realm": "digital",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "complete duplicate survives \u2014 discard shape, no unenumerated loss"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "LUNAR_ORBITER_LORIP",
+      "name": "Lunar Orbiter tapes nearly scrapped; recovered by LOIRP (CONTROL)",
+      "realm": "space",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "discard averted before loss \u2014 near-miss control"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "NIMBUS_DARK_DATA",
+      "name": "Nimbus satellite tapes went 'dark' in warehouses; recovered by NSIDC/NASA (CONTROL)",
+      "realm": "earth",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "discard averted before loss \u2014 near-miss control"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "LANDSAT_LGAC",
+      "name": "Two-thirds of 1972-1999 Landsat data untapped at ground stations; repatriated via LGAC (CONTROL)",
+      "realm": "earth",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "discard averted before loss \u2014 near-miss control"
+      ],
+      "gates": {}
+    },
+    {
+      "id": "VINES_2014_DATA_DECAY",
+      "name": "Vines et al. 2014: research data availability declines 17%/year (META)",
+      "realm": "meta",
+      "status": "CONTROL",
+      "score": 0.0,
+      "failed_gates": [
+        "CONTROL"
+      ],
+      "reasons": [
+        "meta-evidence (study of the phenomenon, not a channel instance)"
+      ],
+      "gates": {}
+    }
+  ],
+  "iterate_surviving_copy": [
+    {
+      "id": "NPRC_1973_FIRE",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "UNIVERSAL_2008_FIRE",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "APOLLO11_SSTV",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "CENSUS_1890_FIRE",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "none",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "SILENT_FILMS_LOC",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "none",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "PIONEER_HELIOS_BASEMENT",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "none",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "DUMONT_NETWORK",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "FOX_1937_FIRE",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "none",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "MGM_1965_FIRE",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "none",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "CARSON_TONIGHT_SHOW",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "BBC_DOCTOR_WHO",
+      "before_status": "DISCARD_GAP",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "MYSPACE_MIGRATION",
+      "before_status": "PENALIZED",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    },
+    {
+      "id": "TOXNET_2019",
+      "before_status": "PENALIZED",
+      "after": "DEMOTED_BY_CHALLENGE",
+      "duplicate_survival": "substantial",
+      "note": "Equivalent information substantially survives; DCC claim narrowed to the unrecovered remainder only."
+    },
+    {
+      "id": "GEOCITIES_2009",
+      "before_status": "PENALIZED",
+      "after": "SURVIVES_CHALLENGE",
+      "duplicate_survival": "partial",
+      "note": "No equivalent-information duplicate survives; the unenumerated remainder stands."
+    }
+  ],
+  "iterate_known_content": [
+    {
+      "case": "A fully-cataloged library burns; every volume's full text survives in an off-site digital archive.",
+      "g4_unenumerated_remainder": false,
+      "verdict": "NOT_DCC",
+      "why": "Retained catalog fully enumerates the channel. Ordinary loss."
+    },
+    {
+      "case": "An uncataloged vault of field recordings burns; no inventory existed.",
+      "g4_unenumerated_remainder": true,
+      "verdict": "DCC_SHAPE",
+      "why": "No surviving record enumerates what was lost. The unknown content is inference."
+    },
+    {
+      "case": "A tape set is wiped, but a complete bit-identical clone survives.",
+      "g4_unenumerated_remainder": true,
+      "verdict": "NOT_DCC",
+      "why": "Fails G5 (irrecoverability), not G4. Controls exist in the instance set."
+    }
+  ],
+  "iterate_discard_intent_ablation": {
+    "counts": {
+      "intentional": 6,
+      "accidental": 5,
+      "mixed": 3,
+      "unknown": 0
+    },
+    "mean_scores": {
+      "intentional": 53.03,
+      "accidental": 61.04,
+      "mixed": 69.67,
+      "unknown": 0.0
+    },
+    "finding": "Both intentional (wiping, dumping, migration) and accidental (fire, decay) discards sit in the eligible set with comparable scores. The class groups the LOSS SHAPE, not the motive \u2014 a limitation for policy use (intent matters for prevention) but the point of the discriminator: what is uninterrogable is uninterrogable regardless of why the channel died."
+  },
+  "archived_classes_subtracted": [
+    "Undersampling",
+    "Destructive-Inquiry Class (DIC)",
+    "Patch-Proliferation Class (PPC)",
+    "Unrecorded-Cessation Class (UCC)",
+    "Observable-Aliasing Class (OAC)",
+    "Unclosed-Redox-Column (UPRC)",
+    "Coupling-Incompleteness (CIP)",
+    "Channel-Monopoly Class (CMC)",
+    "Clock-Incommensurability Class (CIC)",
+    "Exchangeability-Failure Class (EFC)",
+    "Transducer-Absence Class (TAC)",
+    "Failed-Adjudication Class (FAC)"
+  ],
+  "claim_hygiene": "Research-stage classification. Not a physical discovery, not peer review, not a patent. Scores are a classification heuristic, not measurements of nature. Every unknown-content conclusion is labeled INFERENCE unless the source directly establishes it. No filing, publication, or repository change has occurred."
+}
